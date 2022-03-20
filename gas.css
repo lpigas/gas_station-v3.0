@@ -1,0 +1,215 @@
+body{
+    background-color: grey;
+}
+
+.gas__remainder-btn_button{
+    display: flex;
+    width: 175px;
+    height: 30px;
+    margin-left: 19px;
+    margin: auto;
+    justify-content: center;
+}
+.gas__remainder-model{
+    display: inline-flexbox;
+    text-align: center;
+    height: 20px;
+    width: 100%;
+    margin: 10px;
+    padding: 5px;
+}
+.-input__{
+    width: 90px;
+    margin-left: 15px;
+}
+#endday:hover:enabled, #reset:hover:enabled{
+    border: 5px solid red;
+}
+
+.totalAmount{
+    display: grid;
+    justify-content: center;
+    margin: 15%;
+    /* height: 25%; */
+}
+.total, .total2{
+    /* display: grid; */
+    justify-content: center;
+    align-items: center;
+    width: 245px;
+    margin-bottom: 5px;
+    margin-left: auto;
+    background-color: black;
+    font-size: 25px;
+    font-style: italic;
+    color: whitesmoke;
+    align-items: center;
+}
+.enter{
+    width: 100px;
+    height: 100px;
+    font-size: 30px;
+    background-color: aqua;
+}
+
+.endDay, .reset{
+    display: flex;
+    width: 75px;
+    justify-content: start;
+    margin-bottom: 4px;
+    
+}
+#reset, #endday{
+    width: 100%;
+    border: 1px solid darkblue;
+}
+#endday{
+    background-color: aqua;
+    color: #000;
+}
+#reset{
+    background-color: darkgreen;
+    color: #fff;
+}
+
+.adminEnter{
+    margin-top: 10%;
+}
+.adminChange_pass{
+    margin: 6%;
+}
+
+.close__btn-button{
+    margin: 15px;
+}
+.adminEnter__password, .adminEnter__btn,
+.adminChange__password, .adminChange__btn{
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    font-size: 35px;
+}
+.adminChange__btn-button, .close__btn-button{
+    width: 80px;
+    padding: 10px;
+    margin: 15px;
+    font-size: 16px;
+}
+
+
+.gas__priceInpu {
+    padding-bottom: 15px;
+    margin: auto;
+    border: 2px solid black;
+    width: 400px;
+    height: 100%;
+}
+.name__gas{
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+}
+.inputPrice{
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+.price{
+    width: 65px;
+    margin: 5px;
+    font-size: 25px;
+}
+.gas__price{
+    font-size: 25px;
+    width: 65px;
+    margin: 7px;
+    padding: 5px 1px;
+    border: 1px solid black
+}
+.pass{
+    display: flex;
+    margin-top: 150px;
+    margin-bottom: 15px;
+    justify-content: center;
+
+}
+.password{
+    background-color: grey;
+}
+
+.type__ofGas, .type__ofGas1{
+    display: flex;
+    margin: 2px auto;
+    align-items: center;
+    justify-content: center;
+}
+.gas{
+    display: inline;
+    margin:10px 15px;
+    font-size: 25px;
+    width: 60px;
+
+}
+.lastVolumes{
+    display: flex;
+    padding: auto;
+    margin:10px 15px;
+    font-size: 25px;
+    width: 60px;
+    margin-top: 35px;
+    background-color: #000;
+    justify-content: center;
+}
+.lastVolume{
+
+    display: flex;
+    margin: 2px auto;
+    align-items: center;
+    justify-content: center;
+}
+p{
+    display: flex;
+    margin: 16px auto;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+}
+.galon{
+    display: flex;
+    margin: 10px auto;
+    
+}
+.class{
+    width: 190px;
+    padding: 5px;
+    padding-left: 45px;
+    display: flex;
+    margin: 45px auto;
+    border: 2px solid black;
+    font-size: 25px;
+}
+.n1{
+    background-color: red;
+}
+.n2{
+    background-color: blue;
+}
+.n3{
+    background-color: green;
+}
+.n4{
+    background-color: orange;
+}
+.resulyPrice{
+    font-size: 18px;
+    background-color: #000;
+    color: #fff;
+    border: 1px solid red;
+}
+.noneActive{
+    display: none;
+}

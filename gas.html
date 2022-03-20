@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="gas.css">
+    <title>gas station</title>
+</head>
+<body>
+    <div class="endDay ">
+        <button id="endday" disabled>End day</button>
+    </div>
+    <div class="reset">
+        <button id="reset" disabled>Reset</button>
+    </div>
+
+    <div id="totalAmount" class="totalAmount noneActive">
+        <div class="total">Total amount:</div>
+        <div class="total2">A92</div>
+        <div class="total2">A95</div>
+        <div class="total2">A98</div>
+        <div class="total2">Gas</div>
+    </div>
+
+
+
+
+    <div id="admin" class="adminEnter noneActive">
+        <div class="adminEnter__password">
+            <input id="passAdmin" type="password" placeholder="Enter admin password">
+        </div>
+        <div class="adminEnter__btn">
+            <button class="adminEnter__btn-button">Enter</button>
+        </div>
+    </div>
+
+    <div id="change_pass" class="adminChange_pass noneActive">
+        <div class="adminChange__password">
+            <input id="changeAdmin" type="text" placeholder="Enter new password" disabled>
+        </div>
+        <div class="adminChange__btn">
+            <button class="adminChange__btn-button" disabled>Change</button>
+            <button class="close__btn-button" >Back</button>
+        </div>
+        <p>Enter gas remainder</p>
+        <div class="check__gas-remainder">
+            <div id="gas__remainder" class="gas__remainder">
+            
+            </div>
+        </div>
+        <div class="gas__remainder-btn">
+            <button class="gas__remainder-btn_button">Enter</button>
+            
+        </div>
+    </div>
+
+
+
+    <div class="gas__priceInput noneActive">
+        <p>Enter price of Gas</p>
+        <div class="name__gas">
+            <div class="n1 gas__price">A92</div>
+            <div class="n2 gas__price">A95</div>
+            <div class="n3 gas__price">A98</div>
+            <div class="n4 gas__price">Gas</div>
+        </div>
+        <div class="inputPrice">
+            <input type="text" class="inputPrice__A92 price">
+            <input type="text" class="inputPrice__A95 price">
+            <input type="text" class="inputPrice__A98 price">
+            <input type="text" class="inputPrice__Gas price">
+        </div>
+        <button class="resulyPrice type__ofGas1" disabled>Enter price</button>
+        <div class="pass">
+            <input id="pass" type="password" placeholder="Enter passord" checked>
+            <button class="passwords">Check Password</button>
+        </div>
+    </div>
+  
+
+
+    <div class="Gas__output ">
+        <p>Choise your Gas and volume</p>
+        <input type="number" class="galon">
+        <div class="type__ofGas">
+            <button class="gas n1" data="39">A92</button>
+            <button class="gas n2" data="41">A95</button>
+            <button class="gas n3" data="48">A98</button>
+            <button class="gas n4" data="29">Gas</button>
+        </div>
+        <p>Last  volume total:</p>
+        
+        <div class="class"> Total: </div>
+        <div class="type__ofGas">
+            <button class="enter">Enter</button>
+        </div>
+        <div class="lastVolume">
+            <div class="n1 lastVolumes" >0</div>
+            <div class="n2 lastVolumes">0</div>
+            <div class="n3 lastVolumes">0</div>
+            <div class="n4 lastVolumes">0</div>
+        </div>
+    </div>
+    
+    
+
+    <script src="gas.js"></script>
+
+    
+</body>
+</html>

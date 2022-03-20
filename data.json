@@ -1,0 +1,18 @@
+[
+    {
+        "type": "A92",
+        "gallons": 200
+    },
+    {
+        "type": "A95",
+        "gallons": 100
+    },
+    {
+        "type": "A98",
+        "gallons": 250
+    },
+    {
+        "type": "Gas",
+        "gallons": 240
+    }
+]
